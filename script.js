@@ -96,9 +96,9 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "help":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'crypto'</span> - to my crypto addresses <br><span class='bold'>'clear'</span> - to clear conversation");
+            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'CV'</span> - to get my CV<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'crypto'</span> - to my crypto addresses <br><span class='bold'>'clear'</span> - to clear conversation");
             break;
-        case "resume":
+        case "cv":
             sendTextMessage(resumeString);
             break;
         case "skills":
