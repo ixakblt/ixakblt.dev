@@ -1,25 +1,25 @@
 var audio = new Audio('assets/sentmessage.mp3');
 var contactString = `<div class='social'> 
 <a href='mailto:ixakblt@gmail.com'>
-   <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div>
-</a> <a target='_blank' href='https://github.com/ixakblt'>
-   <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div>
-</a><a target='_blank' href='https://instagram.com/ixakblt'>
-   <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div>
-</a> <a href='https://www.linkedin.com/in/ixakblt/' target='_blank' rel='noopener noreferrer'>
-   <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div>
+   <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt='ixakblt gmail hesabı'></div>
+</a> <a target='_blank' rel='noopener noreferrer nofollow' href='https://github.com/ixakblt'>
+   <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt='ixakblt ibrahim akbulut github hesabı'></div>
+</a><a target='_blank' rel='noopener noreferrer nofollow' href='https://instagram.com/ixakblt'>
+   <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt='ixakblt ibrahim akbulut instagram hesabı'> </div>
+</a> <a href='https://www.linkedin.com/in/ixakblt/' target='_blank' rel='noopener noreferrer nofollow' >
+   <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt='ixakblt ibrahim akbulut linkedin hesabı'></div>
 </a> </div>`
 var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>ibrahim AKBULUT.pdf</label></div><a href='assets/ibrahimAKBULUT.pdf' download='ibrahimAkbulut.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 
-var btc = "<img src='images/btc.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>BTC</label></div><a href='images/btc.png' download='btc.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var eth = "<img src='images/eth.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>ETH</label></div><a href='images/eth.png' download='eth.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var trx = "<img src='images/trx.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>TRX</label></div><a href='images/trx.png' download='trx.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var sol = "<img src='images/sol.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>SOL</label></div><a href='images/sol.png' download='sol.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var ltc = "<img src='images/ltc.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>LTC</label></div><a href='images/ltc.png' download='ltc.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var xrp = "<img src='images/xrp.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>XRP</label></div><a href='images/xrp.png' download='xrp.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var ton = "<img src='images/ton.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>TON</label></div><a href='images/ton.png' download='ton.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var doge = "<img src='images/doge.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>DOGE</label></div><a href='images/doge.png' download='doge.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
-var rvn = "<img src='images/rvn.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>RVN</label></div><a href='images/rvn.png' download='rvn.png'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var btc = "<img src='images/btc.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>BTC</label></div><a href='images/btc.png' download='btc.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>bc1qlv054suz060y9zexn50jgw7nqqqvn3p5ma086x</span>";
+var eth = "<img src='images/eth.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>ETH</label></div><a href='images/eth.png' download='eth.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>0x1B7459d8fF18E559D25BD4271683833B38C124b1</span>";
+var trx = "<img src='images/trx.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>TRX</label></div><a href='images/trx.png' download='trx.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>TDqiV8gixUzp3dFTP4d1EWgNXvbyRMnULw</span>";
+var sol = "<img src='images/sol.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>SOL</label></div><a href='images/sol.png' download='sol.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>HuusjtMDkakZiGBCies4m6ytqVVq5srCertXDNpvn2Dm</span>";
+var ltc = "<img src='images/ltc.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>LTC</label></div><a href='images/ltc.png' download='ltc.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>ltc1q0lt4ga8eyl9nsnj8lxhpgu4r7atqd5ly66vrg4</span>";
+var xrp = "<img src='images/xrp.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>XRP</label></div><a href='images/xrp.png' download='xrp.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>rEifdvczKG2khYeeFNT4syjsEguvH5E2N3</span>";
+var ton = "<img src='images/ton.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>TON</label></div><a href='images/ton.png' download='ton.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>EQAEsiG5DxU85RLHyjAXwvqHau96tWh7EHnaFCP-r26XJJfn</span>";
+var doge = "<img src='images/doge.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>DOGE</label></div><a href='images/doge.png' download='doge.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>DHPLBFkEN95S432oYaALFQHAJuZvZLg7oL</span>";
+var rvn = "<img src='images/rvn.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/qr.png'><label>RVN</label></div><a href='images/rvn.png' download='rvn.png'><img class='download' src='images/downloadIcon.svg'></a></div><br><span>RHhFJYmJmqgiHEQYs5oVaDWHpHHueL3VDW</span>";
 
 // var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
 function startFunction() {
@@ -92,7 +92,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>ibrahim AKBULUT</a>.<br><br>I am Frontend & Backend Devoloper and Video Editor<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>ibrahim AKBULUT</a>.<br><br>I am Backend Devoloper<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
@@ -102,7 +102,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'><br>I can write code in the following languages<br><span class='bold'>Golang<br>JavaScript<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks <span class='bold'><br>VueJs<br>Flutter<br>ExpressJs<br>Golang Fiber</span><br><br>I am working with <span class='bold'>Lenovo v14 G2 </span><br><br>my Other Skills<br><span class='bold'>Davinci Resolve</span><br><span class='bold'>Blender</span><br><span class='bold'>SQL</span><br> <span class='bold'>Docker</span><br><span class='bold'>Linux</span><br></span>");
+            sendTextMessage("<span class='sk'><br>I can write code in the following languages<br><span class='bold'>Golang<br>JavaScript</span><br><br>I've experiance with following frameworks <span class='bold'><br>ExpressJs<br>Golang Fiber</span><br><br>I am working with <span class='bold'>Lenovo v14 G2 </span><br>");
             break;
 
         case "education":
@@ -152,7 +152,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(rvn);
         break;
         // case "projects":
-        //     sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+        //     sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' rel='noopener noreferrer nofollow' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
         //     break;
         // case "new":
         //     sendTextMessage(addressString);
